@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Pet Keeper</string>
+    <string name="pet_selection">CHOOSE YOUR PET!</string>
+</resources>
