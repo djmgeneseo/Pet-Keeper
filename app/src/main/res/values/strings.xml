@@ -2,4 +2,6 @@
     <string name="app_name">Pet Keeper</string>
     <string name="pet_selection">CHOOSE YOUR PET!</string>
     <string name="pet_room">Pet Room</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
 </resources>
