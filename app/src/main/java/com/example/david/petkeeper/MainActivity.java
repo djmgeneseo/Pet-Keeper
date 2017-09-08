@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         }); // row1 onClick()
 
-        // Dog or Cat Select Screen
+        // Dog or Cat home select screen
         dogView = (ImageView) findViewById(R.id.dogId);
         catView = (ImageView) findViewById(R.id.catId);
 
@@ -88,6 +88,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         return mDrawerToggle.onOptionsItemSelected(item) || super.onOptionsItemSelected(item);
     }
 
+    // Home Screen
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
@@ -108,5 +109,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
         } // switch
-    }
+    } // onClick()
 } // MainActivity
